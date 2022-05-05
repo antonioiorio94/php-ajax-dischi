@@ -10,13 +10,13 @@
 <body>
   <header>
     <div>
-      <img src="" alt="">
+      <img class="logo" src="img/logo.png" alt="Logo">
     </div>
   </header>
 
   <main>
     <div class="container">
-      <div class="card">
+      
         <?php 
         
         include "./data.php";
@@ -24,16 +24,27 @@
         foreach ($records as $record) {
         
         ?>
+        <div class="card">
 
-        <h3>
+        <img class="cover" src=" <?= $record['poster'] ?>">
+           
+        </img>
+
+        <h2>
             <?= $record['author'] ?>
-        </h3>
+        </h2>
 
+        <p> <?= $record['genre'] ?></p>
+
+        <p> <?= $record['title'] ?></p>
+
+        <p> <?= $record['year'] ?></p>
+        </div>
 
         <?php 
         }
         ?>
-      </div>
+      
     </div>
   </main>
 

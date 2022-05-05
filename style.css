@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header div {
+  background-color: #2e3a46;
+}
+
+body {
+  background-color: #1e2d3b;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  margin: 1rem 0 1rem 0;
+}
+
+.logo {
+  width: 10rem;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  padding: 20px;
+  margin-right: 2rem;
+  text-align: center;
+  color: #5b80a2;
+  background-color: #2e3a46;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.cover {
+  width: 300px;
+  height: 300px;
+}
