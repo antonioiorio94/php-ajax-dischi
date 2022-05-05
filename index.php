@@ -19,7 +19,7 @@
       
         <?php 
         
-        include "./data.php";
+        require "./data.php";
 
         foreach ($records as $record) {
         
